@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("/background.jpg");
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  gap: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  height: 80vh;
+  padding-left: 15rem;
+}
+
+.bottom {
+  display: flex;
+  gap: 1rem;
+}
+
+.condition {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.city {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.temp {
+  font-size: 150px;
+  font-weight: 900;
+  display: flex;
+}
+.exponent {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.seperator {
+  font-size: 125px;
+}
+
+.feel,
+.humidity,
+.wind {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+
+.search {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 2rem;
+  width: 15rem;
+  outline: none;
+  border: none;
+  color: #eef5fd;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0.3rem 0.5rem;
+}
+
+.search:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.submit {
+  height: 2.7rem;
+  background-color: rgba(255, 255, 255, 0.407);
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0 1.5rem;
+  border-radius: 10px;
+}
+
+.submit:hover {
+  background-color: rgba(255, 255, 255, 0.307);
+}
